@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #0e131f url(../imagens/fundo.png)repeat-x;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+  text-decoration: none;  /*RETIRA O _ DO LINK*/
+}
+
+
+#principal{ /*ou principal eh a div que tem as config principais*/
+	width: 950px;
+	margin: 0 auto; /*centraliza*/
+	/*border:1px solid red;*/
+	
+}
+
+#topo{
+	margin-top: 15px;
+	height: 250px;
+/*	border: 1px solid red;*/
+	padding-top: 25px;
+	background: url(../imagens/logo.png) no-repeat center -157px ;
+	
+}
+
+
+
+/*--INICIO FORMATAÇÃO DOS BOTÕES HORIZONTAIS TOPO--*/
+	/*OBS: PARA A CRIAÇÃO DE BOTÕES VERTICAIS, APENAS FLOAT LEFT NO UL E LI NESTA SEQUENCIA*/
+#topo ul{
+	margin-top: 115px;
+	margin-left: 30.3%;	/*MOVIMENTA O FLOAT DA ESQUERDA PARA A DIREITA*/
+	background: #0b0f2c;
+	float: left;
+	border-radius: 20px; /*ARREDONDA A BORDA EM 20PX*/
+}
+
+#topo li{
+	float: left;
+
+}
+
+#topo ul a{
+	font-size: 0.9em;
+	display: block; /*MUDA A FORMATAÇÃO DO LINK DE INLINE PARA BLOCK*/
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	color: #fff;
+	border-radius: 20px;  /*ARREDONDA A BORDA EM 20PX*/
+}
+
+
+#topo ul a:hover{ /*CONFIGURAÇÃO PARA QUANDO PASSAR O MOUSE POR CIMA DOS BOTÕES OU LINKS */
+	background: #445697;
+	border: 1px solid #6f90de;
+}
+/*--FIM DA FORMATAÇÃO DOS BOTÕES HORIZONTAIS TOPO--*/
+/*------------------CAIXA-----------------------------------*/
+.caixa{
+
+	margin: 4px 0;
+	padding: 5px;
+}
+
+
+/*---------INCIO FORMATAÇÃO DO CONTEUDO LATERAIS------*/
+.lateral{
+	/*border: 1px solid yellow;*/
+	width: 180px;
+	margin-top: -50px;
+	float: left;
+	/*margin: 0 0 20px -750px;*/
+	/*background: yellow;*/
+}
+
+.lateral h2{
+
+	font-size: 1.4em;
+	border: 1px solid #6f90de;
+	width: 125px;
+	line-height: 40px;
+	background: #0b0f2c;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 17px;
+}
+
+.lateral ul a{
+	width: 120px;
+	background: #44557e;
+	color: white;
+	text-align: center;
+	margin: 5px;
+	font-size: 0.9em;
+	padding: 3px;
+	border-radius: 5px;
+	line-height: 30px;
+	display: block;
+}
+
+.lateral ul a:hover{ /*CONFIGURAÇÃO PARA QUANDO PASSAR O MOUSE POR CIMA DOS BOTÕES OU LINKS */
+	background: #445697 url(../imagens/select.png)no-repeat left;
+	text-indent: 25px;
+	border: 1px solid #6f90de;
+}
+
+.caixa-conteudo{
+	margin-left: 13px ;
+}
+
+/*---------FIM FORMATAÇÃO DO CONTEUDO LATERAIS------*/
+
+/*---------INCIO FORMATAÇÃO DO CONTEUDO CENTRO------*/
+
+#centro{
+	margin: 15px;
+	border: 0.5px solid #6f90de;
+	width: 554px;
+	margin-top: -50px;
+	background: url(../imagens/fundo2.png);
+	border-radius: 15px;
+	float: left;
+}
+
+#centro .img{
+	margin-top: 25px;
+ 	margin-left: 215px;
+ 	margin-bottom: 30px;
+}
+
+#centro .img-gruz{
+	margin-top: 25px;
+	margin-bottom: 30px;
+ 	margin-left: 115px;
+}
+
+#centro .img-wandering{
+	margin-top: 25px;
+	margin-bottom: 30px;
+ 	margin-left: 235px;
+}
+
+#centro .img-vegenflyk{
+	margin-top: 25px;
+	margin-bottom: 30px;
+ 	margin-left: 175px;
+ 	width: 190px;
+}
+
+
+#centro h2{
+	margin-right: 185px;
+	margin-left: 185px;
+	/*border: 1px solid #cad0fc;*/
+	background: #0c1030;
+	border-radius: 17px;
+	text-transform: uppercase;
+	color: #dde0f8;
+	text-align: center;
+}
+#centro .diabo{
+	color: #ff0000;
+}
+ #tabela th{
+ 	background: #0e131f;
+ 	color: white;
+ 	padding: 20px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#tabela  td{
+	text-align: center;
+	color: #b4b9de;
+	background: #44557e;
+	border: 3px solid #283452;
+	padding: 5px;
+	font-size: 0.8em;
+	border-radius: 10px;
+	/*margin: 50px;*/
+}
+
+
+#tabela th:hover,
+#tabela td:hover{
+	background: #7285b3;
+}
+/*---------FIM FORMATAÇÃO DO CONTEUDO CENTRO------*/
+
+
+
+/*------------------MARCANDO A PAGINA--------------------*/
+
+ #menu  .navegacao .selecionado a{
+		background: #445697;
+		border: 1px solid #6f90de;
+		background: #445697 url(../imagens/select.png)no-repeat left;
+		text-indent: 25px;
+}
+

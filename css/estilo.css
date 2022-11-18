@@ -160,6 +160,63 @@ a{
  	width: 190px;
 }
 
+#centro .img-cornifer{
+	margin-top: -15px;
+	margin-bottom: 14px;
+ 	margin-left: 4.7em;
+}
+
+#centro .img-hornet{
+	margin-top: 14px;
+	margin-bottom: 12px;
+ 	margin-left: 10.7em;
+}
+
+#centro .img-knight{
+	margin-top: 15px;
+	margin-bottom: 14px;
+ 	margin-left: 14.9em;
+}
+
+#centro .img-salubra{
+	margin-top: 15px;
+	margin-bottom: 14px;
+ 	margin-left: 6.9em;
+}
+
+#centro .img-iselda{
+	width: 280px;
+	margin-top: 15px;
+	margin-bottom: 14px;
+ 	margin-left: 8.9em;
+}
+
+
+#centro .img-sly{
+	margin-top: 25px;
+ 	margin-left: 215px;
+ 	margin-left: 14.7em;
+ 	margin-bottom: 30px;
+}
+
+#centro .img-stag{
+	width: 320px;
+	margin-top: 15px;
+	margin-bottom: 14px;
+ 	margin-left: 5.9em;
+}
+
+
+#centro h3{
+	border-bottom: 4px solid #6F6E6E;
+	color: #2E323F;
+	text-align: center;
+	background: #fff;	
+	margin-right: 245px;
+	margin-left: 245px;
+	margin-bottom: 5px;
+	border-radius: 20px;
+}
 
 #centro h2{
 	margin-right: 185px;
@@ -210,4 +267,17 @@ a{
 		background: #445697 url(../imagens/select.png)no-repeat left;
 		text-indent: 25px;
 }
+/*------------------FIM DO MARCANDO A PAGINA--------------------*/
 
+
+
+
+#tabela .tabela-npcs th{
+	width: 40px;
+
+}
+
+#tabela .tabela-npcs td{
+	font-size: 0.6em;
+	
+}

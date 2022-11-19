@@ -7,4 +7,4 @@ Se trata do meu primeiro projeto feito apenas com meus próprios conhecimentos d
 ![interface4](https://user-images.githubusercontent.com/86329011/202831354-ebf81f37-c911-4a82-8690-c491d7fc722b.PNG)
 # <div align="center"> INTERFACE + PÁGINA AMULETOS:</div >
 ## <div align="center">ADICIONADO 18/11</div >
-![interface-amuletos](https://user-images.githubusercontent.com/86329011/202831533-76d87d17-74ac-473b-b406-c95c744d6e84.PNG)
+<div aling="center">![interface-amuletos](https://user-images.githubusercontent.com/86329011/202831533-76d87d17-74ac-473b-b406-c95c744d6e84.PNG)</div>

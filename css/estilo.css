@@ -1,11 +1,19 @@
+
+/*-----------------------------INICIO FORMATAÇÕES GERAIS-----------------*/
 *{
 	margin: 0;
 	padding: 0;
 }
 
-body{
+html #menu{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #0e131f url(../imagens/fundo.png)repeat-x;
+}
+
+
+html #amuletos{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #16112b url(../imagens/fundo-amuletos.png)repeat-x;
 }
 
 ul{
@@ -17,13 +25,13 @@ ul{
 a{
   text-decoration: none;  /*RETIRA O _ DO LINK*/
 }
+/*------------------------------FIM DAS FORMATAÇÕES GERAIS------------------*/
 
-
+/*-----------------------------INICIO FORMATAÇÕES GERAIS DO SITE-----------------*/
 #principal{ /*ou principal eh a div que tem as config principais*/
 	width: 950px;
 	margin: 0 auto; /*centraliza*/
 	/*border:1px solid red;*/
-	
 }
 
 #topo{
@@ -32,13 +40,13 @@ a{
 /*	border: 1px solid red;*/
 	padding-top: 25px;
 	background: url(../imagens/logo.png) no-repeat center -157px ;
-	
 }
 
+/*-----------------------------FIM DAS FORMATAÇÕES GERAIS DO SITE-----------------*/
 
 
-/*--INICIO FORMATAÇÃO DOS BOTÕES HORIZONTAIS TOPO--*/
-	/*OBS: PARA A CRIAÇÃO DE BOTÕES VERTICAIS, APENAS FLOAT LEFT NO UL E LI NESTA SEQUENCIA*/
+/*-----------------INICIO FORMATAÇÃO DOS BOTÕES HORIZONTAIS TOPO---------------------*/
+/*OBS: PARA A CRIAÇÃO DE BOTÕES VERTICAIS, APENAS FLOAT LEFT NO UL E LI NESTA SEQUENCIA*/
 #topo ul{
 	margin-top: 115px;
 	margin-left: 30.3%;	/*MOVIMENTA O FLOAT DA ESQUERDA PARA A DIREITA*/
@@ -49,7 +57,6 @@ a{
 
 #topo li{
 	float: left;
-
 }
 
 #topo ul a{
@@ -61,18 +68,21 @@ a{
 	border-radius: 20px;  /*ARREDONDA A BORDA EM 20PX*/
 }
 
-
 #topo ul a:hover{ /*CONFIGURAÇÃO PARA QUANDO PASSAR O MOUSE POR CIMA DOS BOTÕES OU LINKS */
 	background: #445697;
 	border: 1px solid #6f90de;
+	background: #445697 url(../imagens/select.png)no-repeat left;
+	text-indent: 25px;
 }
-/*--FIM DA FORMATAÇÃO DOS BOTÕES HORIZONTAIS TOPO--*/
-/*------------------CAIXA-----------------------------------*/
-.caixa{
 
+/*----------------------FIM DA FORMATAÇÃO DOS BOTÕES HORIZONTAIS TOPO-----------------------------*/
+
+/*------------------CAIXA--------------------*/
+.caixa{
 	margin: 4px 0;
 	padding: 5px;
 }
+/*------------------FIM CAIXA-------------------*/
 
 
 /*---------INCIO FORMATAÇÃO DO CONTEUDO LATERAIS------*/
@@ -86,7 +96,6 @@ a{
 }
 
 .lateral h2{
-
 	font-size: 1.4em;
 	border: 1px solid #6f90de;
 	width: 125px;
@@ -120,11 +129,9 @@ a{
 .caixa-conteudo{
 	margin-left: 13px ;
 }
-
 /*---------FIM FORMATAÇÃO DO CONTEUDO LATERAIS------*/
 
 /*---------INCIO FORMATAÇÃO DO CONTEUDO CENTRO------*/
-
 #centro{
 	margin: 15px;
 	border: 0.5px solid #6f90de;
@@ -206,7 +213,6 @@ a{
  	margin-left: 5.9em;
 }
 
-
 #centro h3{
 	border-bottom: 4px solid #6F6E6E;
 	color: #2E323F;
@@ -228,9 +234,11 @@ a{
 	color: #dde0f8;
 	text-align: center;
 }
+
 #centro .diabo{
 	color: #ff0000;
 }
+
  #tabela th{
  	background: #0e131f;
  	color: white;
@@ -250,7 +258,6 @@ a{
 	/*margin: 50px;*/
 }
 
-
 #tabela th:hover,
 #tabela td:hover{
 	background: #7285b3;
@@ -258,26 +265,77 @@ a{
 /*---------FIM FORMATAÇÃO DO CONTEUDO CENTRO------*/
 
 
-
 /*------------------MARCANDO A PAGINA--------------------*/
 
- #menu  .navegacao .selecionado a{
-		background: #445697;
-		border: 1px solid #6f90de;
-		background: #445697 url(../imagens/select.png)no-repeat left;
-		text-indent: 25px;
+ #menu  .navegacao .selecionado a,
+ #amuletos .navegacao .selecionado a{
+	background: #445697;
+	border: 1px solid #6f90de;
+	background: #445697 url(../imagens/select.png)no-repeat left;
+	text-indent: 25px;
 }
 /*------------------FIM DO MARCANDO A PAGINA--------------------*/
 
 
-
-
+/*-------AJUSTES TABELA NPCS----------*/
 #tabela .tabela-npcs th{
 	width: 40px;
-
 }
 
 #tabela .tabela-npcs td{
 	font-size: 0.6em;
-	
 }
+/*-------AJUSTES TABELA NPCS----------*/
+
+/*-------FORMATANDO TABELA AMULETOS----------*/
+#amuletos h2{
+	margin-top: -45px;
+	margin-bottom: 20px;
+	text-align: center;
+	background: red;
+	margin-right: 405px;
+	margin-left: 405px;
+	border-bottom-left-radius: 45px;
+	border-top-right-radius: 45px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	color: #292426;
+	background: #f5e1e7;
+}
+
+#caixa-amuletos{
+	width: 700px ;
+	margin:0 auto;
+	border-radius: 25px;
+	background: url(../imagens/fundo-grim.png);
+}
+#caixa-amuletos table {
+  border-collapse: separate; 
+  border-spacing: 10px 30px ; /*ABRE UM ESPAÇAMENTO NA TABELA EM TUDO TH TD TR ETC*/
+ /* margin: 0 0 0 0;*/
+}
+
+#caixa-amuletos th{
+	text-transform: uppercase;
+	color: #292426;
+	border: 1px solid #d53b6a;
+	line-height: 2.6em; 
+	border-radius: 25px;
+	background: #f5e1e7;
+	letter-spacing: 1px;
+}
+
+#caixa-amuletos td{
+	padding:  10px;
+	border-bottom: 3px solid #ffb03e;
+	border-radius: 25px;
+}
+
+#caixa-amuletos table tr{
+	border: 1px solid yellow;
+}
+
+#caixa-amuletos td:hover{
+	background: #ffb03e;
+}
+/*-------FIM FORMATAÇÃO TABELA DE AMULETOS----------*/

@@ -288,7 +288,7 @@ a{
 /*-------AJUSTES TABELA NPCS----------*/
 
 /*-------FORMATANDO TABELA AMULETOS----------*/
-#amuletos h2{
+#amuletos #principal h2{
 	margin-top: -45px;
 	margin-bottom: 20px;
 	text-align: center;
@@ -339,3 +339,31 @@ a{
 	background: #ffb03e;
 }
 /*-------FIM FORMATAÇÃO TABELA DE AMULETOS----------*/
+
+/*-------INICIO FORMATAÇÃO BARRA DE DIREITOS--------------------*/
+
+.barra-direitos {
+		/*background-color: #44557e;*/
+		background-image: linear-gradient(#192237, #546da9);
+		opacity: 0.8;
+        bottom:0em;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        color:#ffff;
+    }
+
+.barra-direitos-amuletos {
+	    background-image: linear-gradient(#851738, #26122d);
+	   	opacity: 0.8;
+        bottom:0em;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        color:#ffff;
+    }
+
+/*-------FIM FORMATAÇÃO BARRA DE DIREITOS--------------------*/
+ 	

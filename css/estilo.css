@@ -370,8 +370,19 @@ a{
         color:#ffff;
     }
 
-/*-------FIM FORMATAÇÃO BARRA DE DIREITOS--------------------*/
 
+.barra-direitos-mapa {
+	    background-image: linear-gradient(#06362c, #088c6e);
+	   	opacity: 0.8;
+        bottom:0em;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        color: #f4fff5;
+    }
+
+/*-------FIM FORMATAÇÃO BARRA DE DIREITOS--------------------*/
 
 
 /*--------------------FORMATAÇÃO IMAGENS MINHOQUINHAS NO BANNER---------------------------*/
@@ -397,6 +408,10 @@ a{
 
 /*--------------------FIM FORMATAÇÃO IMAGENS MINHOQUINHAS NO BANNER---------------------------*/
 
+
+
+
+/*---------------------------INICIO FORMATAÇÃO MAPA---------------------------------------*/
 #mapa-tamanho {
 	/*border:1px solid yellow;*/
 	margin-left: 1200px;
@@ -414,7 +429,7 @@ a{
 	
 }
 
-#mapas h2 {
+#mapas .titulo h2 {
 	 background-image: linear-gradient(#06362c,#088c6e);
 	text-align: center;
 	margin-top: -25px;
@@ -425,4 +440,4 @@ a{
 	color: #f4fff5;
 }
 
-
+/*---------------------------FIM FORMATAÇÃO MAPA------------------------------------------*/

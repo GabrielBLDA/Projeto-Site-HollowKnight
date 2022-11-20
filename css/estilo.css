@@ -10,10 +10,14 @@ html #menu{
 	background: #0e131f url(../imagens/fundo.png)repeat-x;
 }
 
-
 html #amuletos{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #16112b url(../imagens/fundo-amuletos.png)repeat-x;
+}
+
+html #mapas{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #16112b url(../imagens/fundo-mapa.png)repeat-x;
 }
 
 ul{
@@ -268,7 +272,8 @@ a{
 /*------------------MARCANDO A PAGINA--------------------*/
 
  #menu  .navegacao .selecionado a,
- #amuletos .navegacao .selecionado a{
+ #amuletos .navegacao .selecionado a,
+ #mapas .navegacao .selecionado a{
 	background: #445697;
 	border: 1px solid #6f90de;
 	background: #445697 url(../imagens/select.png)no-repeat left;
@@ -366,4 +371,58 @@ a{
     }
 
 /*-------FIM FORMATAÇÃO BARRA DE DIREITOS--------------------*/
- 	
+
+
+
+/*--------------------FORMATAÇÃO IMAGENS MINHOQUINHAS NO BANNER---------------------------*/
+
+#imagem-unn img{
+	float: left;
+	/*border:1px solid yellow;*/
+	position: static;
+	margin-left:135px;
+	margin-top: -246px;
+	width: 180px;
+}
+
+#imagem-unn2 img{
+	float: right;
+	/*border:1px solid yellow;*/
+	transform: scaleX(-1); /*espelha a imagem. da um flip na imagem. inverte o lado da imagem*/
+	position: static;
+	margin-top: -246px;
+	margin-right: 130px;
+	width: 180px;
+}
+
+/*--------------------FIM FORMATAÇÃO IMAGENS MINHOQUINHAS NO BANNER---------------------------*/
+
+#mapa-tamanho {
+	/*border:1px solid yellow;*/
+	margin-left: 1200px;
+	margin-right: 1200px;
+	margin: 0 auto; /*centraliza*/
+}
+
+
+#mapa-completo img{
+	margin-top: 35px;
+	border-top:6px solid #088f71;
+	width: 940px;
+	align-content: center;
+	border-radius: 155px;
+	
+}
+
+#mapas h2 {
+	 background-image: linear-gradient(#06362c,#088c6e);
+	text-align: center;
+	margin-top: -25px;
+	margin-left: 351px;
+	margin-right: 351px;
+	line-height: 40px;
+	border-radius: 25px;
+	color: #f4fff5;
+}
+
+

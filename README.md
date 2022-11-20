@@ -9,4 +9,8 @@
 # <div align="center"> INTERFACE + PÁGINA AMULETOS:</div >
 ## <div align="center">ADICIONADO 18/11</div >
   ![interface-amuletos](https://user-images.githubusercontent.com/86329011/202831533-76d87d17-74ac-473b-b406-c95c744d6e84.PNG) 
+# <div align="center"> INTERFACE PÁGINA MAPA</div>
+## <div align="center">ADICIONADO 20/11</div >
+![interface-mapa](https://user-images.githubusercontent.com/86329011/202889236-7325aa8b-e46c-44ab-bef9-f03d807c3f29.PNG)
+
 

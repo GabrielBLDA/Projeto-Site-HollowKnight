@@ -272,7 +272,8 @@ a{
 
  #menu  .navegacao .selecionado a,
  #amuletos .navegacao .selecionado a,
- #mapas .navegacao .selecionado a{
+ #mapas .navegacao .selecionado a,
+ .dicas .navegacao .selecionado a{
 	background: #445697;
 	border: 1px solid #6f90de;
 	background: #445697 url(../imagens/select.png)no-repeat left;
@@ -381,6 +382,17 @@ a{
         color: #f4fff5;
     }
 
+ .barra-direitos-dicas {
+	    background-image: linear-gradient(#392f58, #9952a4);
+	   	opacity: 0.6;
+        bottom:0em;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        color: #f4fff5;
+    }
+
 /*-------FIM FORMATAÇÃO BARRA DE DIREITOS--------------------*/
 
 
@@ -440,3 +452,134 @@ a{
 }
 
 /*---------------------------FIM FORMATAÇÃO MAPA------------------------------------------*/
+
+/*------------------------INICIO FORMATAÇÃO PARALLAX / DICAS---------------------------------*/
+
+body.dicas, html.dicas{
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #777;
+	height: 100%;
+/*	border: 1px solid red;*/
+	background: #0e131f url(../imagens/fundo-dicas.png)repeat-x;
+}
+
+h2.titulo-dicas{
+	margin-right: 420px;
+	margin-left: 420px;
+	border-bottom-left-radius: 45px;
+	border-top-right-radius: 45px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	text-align: center;
+	position: relative;
+	top: -29px;
+	color: #0e131f;
+	background: #fff;
+	border-bottom: 3px solid #aa58b0;
+	opacity: 0.9;
+}
+
+.conteudo{
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 40px 60px;
+
+	}
+
+.dicas h3{
+ 	text-transform: uppercase;
+ 	color: #111;
+ 	text-align: center;
+  }
+
+.dicas p{
+	margin-bottom: 20px;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+	position: relative;
+	/*width: 950px;*/
+	height: 950px;
+	opacity: 0.6;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa1{
+	background-image: url(../imagens/parallax0.png);
+		}
+
+.caixa2{
+	background-image: url(../imagens/parallax1.png);
+		}
+
+.caixa3{
+	background-image: url(../imagens/parallax2.png);
+		}
+
+.caixa4{
+	background-image: url(../imagens/parallax3.png);
+		}
+
+
+.conteudo-titulo{
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 950px;
+	/*background: red;*/
+	text-align: center;
+			}
+
+.conteudo-titulo span.titulo{
+	color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	border-radius: 15px;
+			}
+/*------------------------FIMFORMATAÇÃO PARALLAX DICAS---------------------------------*/
+
+/*------------------------INICIO FORMATAÇÃO TOPO DICAS---------------------------------*/
+ #topo-dicas ul{
+	margin-top: 115px;
+	margin-left: 30.3%;	/*MOVIMENTA O FLOAT DA ESQUERDA PARA A DIREITA*/
+	background: #0b0f2c;
+	float: left;
+	border-radius: 20px; /*ARREDONDA A BORDA EM 20PX*/
+}
+
+#topo-dicas li{
+	float: left;
+}
+
+ #topo-dicas ul a{
+	font-size: 0.9em;
+	display: block; /*MUDA A FORMATAÇÃO DO LINK DE INLINE PARA BLOCK*/
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	color: #fff;
+	border-radius: 10px;  /*ARREDONDA A BORDA EM 20PX*/
+}
+
+ #topo-dicas{
+	margin-top: 15px;
+	height: 250px;
+/*	border: 1px solid red;*/
+	padding-top: 25px;
+	background: url(../imagens/logo.png) no-repeat center -157px ;
+}
+
+ #topo-dicas ul a:hover{ /*CONFIGURAÇÃO PARA QUANDO PASSAR O MOUSE POR CIMA DOS BOTÕES OU LINKS */
+	background: #445697;
+	border: 1px solid #6f90de;
+	background: #445697 url(../imagens/select.png)no-repeat left;
+	text-indent: 25px;
+}
+
+/*------------------------FIM FORMATAÇÃO TOPO DICAS--------------------------------*/

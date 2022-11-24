@@ -370,7 +370,6 @@ a{
         color:#ffff;
     }
 
-
 .barra-direitos-mapa {
 	    background-image: linear-gradient(#06362c, #088c6e);
 	   	opacity: 0.8;
@@ -395,9 +394,7 @@ a{
 
 /*-------FIM FORMATAÇÃO BARRA DE DIREITOS--------------------*/
 
-
 /*--------------------FORMATAÇÃO IMAGENS MINHOQUINHAS NO BANNER---------------------------*/
-
 #imagem-unn img{
 	float: left;
 	/*border:1px solid yellow;*/
@@ -416,11 +413,7 @@ a{
 	margin-right: 130px;
 	width: 180px;
 }
-
 /*--------------------FIM FORMATAÇÃO IMAGENS MINHOQUINHAS NO BANNER---------------------------*/
-
-
-
 
 /*---------------------------INICIO FORMATAÇÃO MAPA---------------------------------------*/
 #mapa-tamanho {
@@ -430,14 +423,12 @@ a{
 	margin: 0 auto; /*centraliza*/
 }
 
-
 #mapa-completo img{
 	margin-top: 35px;
 	border-top:6px solid #088f71;
 	width: 940px;
 	align-content: center;
 	border-radius: 155px;
-	
 }
 
 #mapas .titulo h2 {
@@ -557,7 +548,6 @@ h2.titulo-dicas{
 #topo-dicas li{
 	float: left;
 }
-
  #topo-dicas ul a{
 	font-size: 0.9em;
 	display: block; /*MUDA A FORMATAÇÃO DO LINK DE INLINE PARA BLOCK*/
@@ -566,7 +556,6 @@ h2.titulo-dicas{
 	color: #fff;
 	border-radius: 10px;  /*ARREDONDA A BORDA EM 20PX*/
 }
-
  #topo-dicas{
 	margin-top: 15px;
 	height: 250px;
@@ -574,12 +563,10 @@ h2.titulo-dicas{
 	padding-top: 25px;
 	background: url(../imagens/logo.png) no-repeat center -157px ;
 }
-
  #topo-dicas ul a:hover{ /*CONFIGURAÇÃO PARA QUANDO PASSAR O MOUSE POR CIMA DOS BOTÕES OU LINKS */
 	background: #445697;
 	border: 1px solid #6f90de;
 	background: #445697 url(../imagens/select.png)no-repeat left;
 	text-indent: 25px;
 }
-
 /*------------------------FIM FORMATAÇÃO TOPO DICAS--------------------------------*/

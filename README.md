@@ -1,6 +1,6 @@
 # <div align="center"> INTERFACE CRIATURAS</div >
 ![interface2](https://user-images.githubusercontent.com/86329011/202831127-fd73d582-466d-4079-b44e-c0b1022fa2a0.PNG)
-# <div align="center"> INTERFACE NPCS:</div >
+# <div align="center"> INTERFACE NPCS</div >
 ![interface4](https://user-images.githubusercontent.com/86329011/202831354-ebf81f37-c911-4a82-8690-c491d7fc722b.PNG)
 # <div align="center"> INTERFACE + PÁGINA AMULETOS</div >
 ## <div align="center">ADICIONADO 18/11</div >
